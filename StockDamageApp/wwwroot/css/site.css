@@ -1,0 +1,75 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.erp-card {
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.erp-header {
+    background-color: #555;
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px 4px 0 0;
+}
+
+.erp-label {
+    font-weight: 500;
+    font-size: 13px;
+    color: #333;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.btn-sm {
+    font-size: 13px;
+    padding: 3px 8px;
+}
+
+.erp-card-body {
+    max-height: 500px;
+    overflow-y: auto;
+    padding-bottom: 100px;
+}
+
+.erp-card-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+}
