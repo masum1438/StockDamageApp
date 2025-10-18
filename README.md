@@ -1,4 +1,4 @@
-# StockDamageApp
+
 # Stock Damage Management System
 
 A web-based Stock Damage Management System built using **ASP.NET Core MVC**, **Entity Framework Core**, **SQL Server**, and **Bootstrap 5**. This system allows users to record, manage, and track stock damage entries efficiently with real-time calculations, multi-currency support, and employee tracking.
